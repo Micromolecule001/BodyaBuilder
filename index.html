@@ -107,21 +107,14 @@
     <script src="./popUp.js"></script>
 
     <script>
-        let popUpState = 'pusto';
-
         document.addEventListener("click", function(event) {
             console.log('event: ', event.target.id);
             if (event.target && event.target.id === "openPopupBtn") {
                 console.log('open');
                 document.getElementById("popup").classList.remove("hidden");
-                
-                console.log("before: ", popUpState, document.getElementsByTagName('span').value)
-                popUpState = document.getElementsByTagName('span').value;
-                console.log("after: ", popUpState)
-            } else if (event.target && event.target.id === "closePopUp" || event.target.id === "") {
+            } else if (event.target && event.target.id === "closePopUp" || event.target.id === "svgCross") {
                 console.log('close');
                 document.getElementById("popup").classList.add("hidden");
-
             } else if (event.target && event.target.id === "submitBtn") {
                 document.getElementById("popup").classList.add("hidden");
                 console.log('submitOrder');
