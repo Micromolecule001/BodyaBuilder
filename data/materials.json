@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Матеріали для електрики",
+        "description": " Кабель, автомати, щити, кріплення...",
+        "imageUrl": "",
+        "price": "$220"
+    },
+    {   
+        "title": "Гіпсокартонні системи",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "",
+        "price": "$150"
+    },
+    {
+        "title": "Суміші",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "",
+        "price": "$150"
+    },
+    {
+        "title": "Клей",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "",
+        "price": "$150"
+    },
+    {
+        "title": "Лакокрасочні матеріали",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "",
+        "price": "$150"
+    },
+    {
+        "title": "Пиломатеріали та плити",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "",
+        "price": "$150"
+    }
+]

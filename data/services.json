@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Монтаж сантехніки",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+        "price": "$220"
+    },
+    {
+        "title": "Електромонтаж",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "Штукатурні роботи",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "Малярні роботи",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "Плиточні роботи",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "Підлога",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "Натяжні стелі",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "*Іфно*Чистовий монтаж електро пристроїв та установка дверей, монтаж підлоги, плінтула, кухня",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    },
+    {
+        "title": "",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit In odit",
+        "imageUrl": "https://example.com/another-image.jpg",
+        "price": "$150"
+    }
+]

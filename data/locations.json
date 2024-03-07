@@ -1,0 +1,34 @@
+[
+    {
+        "image": "https://i.postimg.cc/Y049f9k2/pexels-zachary-debottis-3656773.jpg",
+        "category": "Singer",
+        "author": "John Doe",
+        "date": "6th Jun, 2022",
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        "image": "https://i.postimg.cc/C1QgspFw/pexels-pixabay-371985.jpg",
+        "category": "Actor",
+        "author": "John Doe",
+        "date": "6th Jun, 2022",
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        "image": "https://i.postimg.cc/C1QgspFw/pexels-pixabay-371985.jpg",
+        "category": "Actor",
+        "author": "John Doe",
+        "date": "6th Jun, 2022",
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    },
+    {
+        "image": "https://i.postimg.cc/qMcFkH9g/pexels-dominika-gregu-ov-478544.jpg",
+        "category": "Model",
+        "author": "John Doe",
+        "date": "6th Jun, 2022",
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+    }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.png"">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0.1/dist/pretty-checkbox.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js"></script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '908059534329330');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=908059534329330&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <title>Перший будівельний</title>
+</head>
+
+<body>
+    <!-- Main section -->
+    <section id="first-block" class="">
+
+    </section>
+    <!-- End Main section -->
+
+    <!-- materials section -->
+    <section id="materials" class="">
+
+    </section>
+    <!-- End materials section -->
+
+    <!-- work-services section -->
+    <section id="work-services" class="">
+
+    </section>
+    <!-- End work-services section -->
+
+    <!-- second-block -->
+    <section id="second-block" class="">
+
+    </section>
+    <!-- End second-block -->
+
+    <!-- locations -->
+    <section id="locations" class="">
+
+    </section>
+    <!-- End locations -->
+
+    <!-- FORM MENU -->
+    <section id="form-menu" class="">
+
+    </section>
+    <!-- End FORM MENU -->
+
+    <!-- Reviews section -->
+    <section id="reviews" class="">
+
+    </section>
+    <!-- End Reviews section-->
+
+    <!-- Footer Section -->
+    <section id="footer" class="">
+
+    </section>
+    <!-- End footer -->
+
+    <!-- PopUp section -->
+    <section id="popUp" class="">
+
+    </section>
+    <!-- End PopUp -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./1-block.js"></script>
+    <script src="./2-block.js"></script>
+    <script src="./materials.js"></script>
+    <script src="./work-services.js"></script>
+    <script src="./form-menu.js"></script>
+    <script src="./locations.js"></script>
+    <script src="./footer.js"></script>
+    <script src="./form-script.js"></script>
+    <script src="./popUp.js"></script>
+
+    <script>
+        let popUpState = 'pusto';
+
+        document.addEventListener("click", function(event) {
+            console.log('event: ', event.target.id);
+            if (event.target && event.target.id === "openPopupBtn") {
+                console.log('open');
+                document.getElementById("popup").classList.remove("hidden");
+                
+                console.log("before: ", popUpState, document.getElementsByTagName('span').value)
+                popUpState = document.getElementsByTagName('span').value;
+                console.log("after: ", popUpState)
+            } else if (event.target && event.target.id === "closePopUp" || event.target.id === "") {
+                console.log('close');
+                document.getElementById("popup").classList.add("hidden");
+
+            } else if (event.target && event.target.id === "submitBtn") {
+                document.getElementById("popup").classList.add("hidden");
+                console.log('submitOrder');
+            }
+        });
+    </script>
+
+</body>
+</html>
